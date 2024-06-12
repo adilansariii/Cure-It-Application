@@ -1,42 +1,56 @@
-# Cure-It-Application
-In an era driven by data and health awareness, access to accurate medical information is paramount. Enter Cure-It, a groundbreaking disease prediction web application meticulously crafted to empower users with proactive health insights. By seamlessly integrating cutting-edge Machine Learning algorithms with user-friendly interfaces.
+# Health-Care-webapp-Cure-it-
+Cure-It is a disease prediction web application that allows users to input their symptoms and health parameters to get assessed for potential medical conditions. The app provides risk analysis for 3 major disease areas - general illness based on symptoms, heart disease, and diabetes.
 
-# Cure-It: Disease Prediction Web Application
+# Cure-It
+Cure-It is a web application built with Flask that allows users to get predictions on various diseases based on their symptoms and health data.
 
-In an era driven by data and health awareness, access to accurate medical information is paramount. Enter Cure-It, a groundbreaking disease prediction web application meticulously crafted to empower users with proactive health insights. By seamlessly integrating cutting-edge Machine Learning algorithms with user-friendly interfaces, Cure-It revolutionizes the way individuals assess their health risks and take proactive measures.
-
-## Key Features of Cure-It:
-1. **Comprehensive Disease Prediction**:
-   - Leverages various machine learning models, including Naive Bayes, Random Forest, and Logistic Regression, for accurate risk assessments of general illness, heart disease, and diabetes.
-   
-2. **Intuitive User Experience**:
-   - Developed using React, Cure-It ensures a smooth and interactive user experience, enhancing usability and engagement.
-   
-3. **Advanced Machine Learning Integration**:
-   - Utilizes sophisticated machine learning algorithms to analyze symptoms and health parameters, providing users with reliable predictions and insights.
-   
-4. **Interactive Dashboards**:
-   - Provides dynamic and responsive dashboards, built with Bootstrap, for easy visualization and interpretation of health data.
-   
-5. **Privacy and Security**:
-   - Ensures the confidentiality and security of user data through robust backend processes and secure data storage solutions.
-
-## Technology Stack:
-### Frontend:
-- **React**: Cure-It's frontend is developed using React, a versatile JavaScript library known for building dynamic and responsive user interfaces. React ensures a smooth and interactive user experience, enhancing usability and engagement.
-- **Bootstrap**: To craft an intuitive and visually appealing interface, Cure-It utilizes Bootstrap. With its pre-designed components and responsive grid system, Bootstrap simplifies UI development, ensuring consistency and usability across devices.
-
-### Backend:
-- **Flask**: The backbone of Cure-It's backend is Flask, a lightweight and efficient Python web framework. Flask handles crucial tasks such as data processing, server-side logic, and API endpoints, ensuring seamless functionality and performance.
-- **SQLite**: Cure-It utilizes SQLite for data storage, enabling efficient management and retrieval of user information and prediction results. SQLite's lightweight nature and compatibility with Flask make it an ideal choice for small-scale web applications like Cure-It.
-
-### Machine Learning:
-- **Machine Learning Models**: Cure-It leverages various machine learning models, including Naive Bayes, Random Forest, and Logistic Regression, for disease prediction. These models analyze symptoms and health parameters to provide users with accurate risk assessments for general illness, heart disease, and diabetes.
-
-### Version Control:
-- **GitHub**: Cure-It's project repository is hosted on GitHub, facilitating version control and collaborative development. GitHub enables seamless collaboration among team members, code management, and project documentation, ensuring transparency and efficiency in project development.
-
-## Mission:
-With Cure-It, our mission is clear: to empower individuals with the knowledge and insights they need to take control of their health and well-being. By combining advanced technology with a user-centric approach, Cure-It sets a new standard in proactive healthcare, paving the way for a healthier and more informed society.
+# Overview
+Images:
+![index](https://github.com/yashnevase/Health-Care-webapp-Cure-it-/assets/78201930/84187523-c7f5-4d46-9cc6-bb5fad792efe)
+![reg](https://github.com/yashnevase/Health-Care-webapp-Cure-it-/assets/78201930/16b0fcd9-985e-42d6-9703-b6250b307ed0)
+![dash](https://github.com/yashnevase/Health-Care-webapp-Cure-it-/assets/78201930/a2284900-9c40-4f04-ad73-1f1fdf911ae3)
+![bassic](https://github.com/yashnevase/Health-Care-webapp-Cure-it-/assets/78201930/09eb114d-e256-451c-bd83-2e4b0f779132)
+![heart](https://github.com/yashnevase/Health-Care-webapp-Cure-it-/assets/78201930/05b7743f-c8f2-4261-b600-60569c7c3b02)
+![diabetes](https://github.com/yashnevase/Health-Care-webapp-Cure-it-/assets/78201930/d46401c1-70b6-4f80-bd02-258cf213dd67)
+![cal](https://github.com/yashnevase/Health-Care-webapp-Cure-it-/assets/78201930/c8753029-07ae-480e-b8b8-3900cd10d0af)
 
 
+The app provides disease predictions in 3 main areas:
+
+General Disease Prediction
+Heart Disease Prediction
+Diabetes Prediction
+Users can create an account and then input their symptoms or details like blood pressure, glucose levels etc to get a disease risk assessment. The predictions are made using Machine Learning models like Naive Bayes, Random Forest and Logistic Regression.
+
+# Installation
+Clone the repository and install dependencies:
+git clone [https://github.com/<your_repo>](https://github.com/yashnevase/Health-Care-webapp-Cure-it-)
+cd cure-it
+pip install -r requirements.txt
+
+# Usage
+
+Run the app:
+
+python app.py
+
+The app will be served at http://localhost:5000
+
+Register an account and then navigate to the disease prediction pages. Enter symptoms and details as prompted to get the disease risk prediction.
+
+
+# Models
+
+The following ML models are used for the app:
+
+Naive Bayes - Disease prediction based on symptoms
+Random Forest - Diabetes risk prediction
+Logistic Regression - Heart disease risk prediction
+The models are trained onstandard datasets and saved as Pickle files.
+
+# Technology Stack
+
+Frontend: HTML
+Backend: Flask, Python
+Database: SQLite
+Machine Learning: scikit-learn, Pandas, NumPy
